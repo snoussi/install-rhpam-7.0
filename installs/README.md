@@ -4,9 +4,9 @@ Below the list of installation packages to download from the Red Hat Customer Po
 
 ### EAP 7.1 packages
 - Red Hat JBoss Enterprise Application Platform 7.1
-- Red Hat JBoss Enterprise Application Platform 7.1 Update 01
+- Red Hat JBoss Enterprise Application Platform 7.1 Update 03
 
-### RHPAM 7.0 packages
+### RHPAM 7.0.1 packages
 
 
 ### RHPAM 7.0 offline maven repository

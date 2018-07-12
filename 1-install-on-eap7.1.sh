@@ -3,12 +3,12 @@ AUTHORS1="Rachid Snoussi"
 
 PRODUCT="Red Hat Process Automation Manager 7.0 on EAP7.1"
 
-RHPAM_BC=rhpam-7.0.0-business-central-eap7-deployable
-RHPAM_PS=rhpam-7.0.0-kie-server-ee7
+RHPAM_BC=rhpam-7.0.1-business-central-eap7-deployable
+RHPAM_PS=rhpam-7.0.1-kie-server-ee7
 #RHPAM_PATCH_WILDCARD=
 
 EAP=jboss-eap-7.1.0
-EAP_PATCH=jboss-eap-7.1.2-patch
+EAP_PATCH=jboss-eap-7.1.3-patch
 
 EAP_USER=admin
 EAP_PWD=jboss1!
@@ -20,7 +20,7 @@ TARGET=../
 SRC_DIR=./installs
 
 JBOSS_HOME=$TARGET/jboss-eap-7.1
-RHPAM_HOME=$TARGET/rhpam-7.0
+RHPAM_HOME=$TARGET/rhpam-7.0.1
 
 echo
 echo "#################################################################"
