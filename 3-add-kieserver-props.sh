@@ -9,7 +9,7 @@ CLI_SCRIPT=add-kieserver-props.cli
 
 echo "Adding a pamController user on JBoss EAP ..."
 echo
-$JBOSS_HOME/bin/add-user.sh -a -r ApplicationRealm -u pamController -p pamController1! -ro kie-server --silent
+$JBOSS_HOME/bin/add-user.sh -a -r ApplicationRealm -u pamController -p pamController1! -ro kie-server,rest-all --silent
 if [ $? -ne 0 ]; then
   echo
   echo Error occurred during user adding !

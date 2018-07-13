@@ -3,4 +3,4 @@
 #
 
 /system-property=org.kie.server.persistence.ds:add(value="java:jboss/datasources/pamDS")
-/system-property=oorg.kie.server.persistence.dialect:add(value="org.hibernate.dialect.PostgreSQLDialect")
+/system-property=org.kie.server.persistence.dialect:add(value="org.hibernate.dialect.PostgreSQLDialect")
